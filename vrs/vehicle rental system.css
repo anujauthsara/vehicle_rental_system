@@ -1,0 +1,143 @@
+/* Header */
+.login-button {
+    background-color:rgb(59, 208, 213);
+    color: white;
+    padding: 10px 15px;
+    font-size: 10px;
+    position:sticky;
+    bottom: 10px;
+  }
+  
+.signup-button {
+    background-color:rgb(59, 208, 213);
+    color: white;
+    padding: 10px 15px;
+    font-size: 10px;
+    position:sticky;
+    bottom: 10px;
+  }
+  
+li.l1 a{
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li.l1 a:hover{background-color: rgb(255, 255, 255)}
+
+/* Adding background image */
+body{
+	background-image:url("blue.jpg");
+	background-size:cover;
+	height: 100%;
+	background-repeat: no-repeat;
+}
+
+/* Heading */
+h1{
+	font-family:Lucida Console;
+	font-size:40px;
+	padding-top:15px;
+}
+
+p{
+	font-size:17px;
+	color:#FF4433;
+}
+
+/* Content in the sign up page */
+.signup{
+	width:360px;
+	height:640px;
+	margin:auto;
+	background-color:rgb(208, 242, 247);
+	box-shadow: 0px 0px 15px currentcolor;
+    border: 5px solid currentcolor;
+	border-radius:3px;
+	top: 50%;
+    left: 50%;
+    text-align: center;
+}
+
+/* Content in the login page */
+.login{
+	width:360px;
+	height:380px;
+	margin:auto;
+	background-color:rgb(208, 242, 247);
+	box-shadow: 0px 0px 15px currentcolor;
+    border: 5px solid currentcolor;
+	border-radius:3px;
+	top: 50%;
+    left: 50%;
+    text-align: center;
+}
+
+/* Font in labels */
+label{
+	font-family:Georgia;
+	font-size:24px;
+	font-weight:500;
+}
+
+/* Content in the sign up boxes */
+.sbox {
+  box-sizing: border-box;
+  width: 90%;
+  border:3px solid darkgray;
+  background-color:#F8F8F8;
+  border-radius: 4px;
+  background-position: 10px 12px;
+  font-size: 13px;
+  padding: 5px 5px 5px 5px;
+}
+
+/* Submit and login buttons */
+button{
+	border:3px solid yellow;
+	background-color:#f0e68c;
+  cursor: pointer;
+	font-size:15px;
+	letter-spacing:1px;
+}
+
+/* Content in the login boxes */
+.lbox {
+  box-sizing: border-box;
+  width: 90%;
+  border:3px solid darkgray;
+  background-color:#F8F8F8;
+  border-radius: 4px;
+  background-position: 10px 12px;
+  font-size: 14px;
+  padding: 8px 8px 8px 8px;
+
+}
+
+/* Adding background colors when typing in the boxes */
+input[type=text]:focus {
+  background-color:#FFFF99;
+  border: 3px solid red;
+}
+
+input[type=phone]:focus {
+  background-color:#FFFF99;
+  border: 3px solid red;
+}
+
+input[type=email]:focus {
+  background-color:#FFFF99;
+  border: 3px solid red;
+}
+
+input[type=password]:focus {
+  background-color:#FFFF99;
+  border: 3px solid red;
+}
+
+
+
+
+
+  

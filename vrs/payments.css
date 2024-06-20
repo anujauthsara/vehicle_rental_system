@@ -1,0 +1,75 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .form-group label {
+    margin-right: 10px;
+    width: 180px;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  input[type="month"],
+  input[type="checkbox"],
+  .Submit {
+    padding: 5px;
+    font-size: 16px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button.Submit {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button.Submit:hover {
+    background-color: #45a049;
+  }
+  
+  .payment-icons {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  h2 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: normal;
+  }
+  
+  p {
+    font-weight: bold;
+  }
+  
+  span#selected-amount {
+    font-weight: bold;
+    color: blue;
+  }
+
+  .form-box{
+    background-color: #bebcbc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }

@@ -1,0 +1,258 @@
+.login-button {
+    background-color:black;
+    color: white;
+    padding: 10px 15px;
+    font-size: 10px;
+    position:sticky;
+    bottom: 10px;
+    
+  }
+  
+  .signup-button {
+    background-color:black;
+    color: white;
+    padding: 10px 15px;
+    font-size: 10px;
+    position:sticky;
+    bottom: 10px;
+    
+  }
+  
+li.l1 a{
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+
+li.l1 a:hover{background-color: rgb(255, 255, 255)}
+
+footer {
+    background-color:black;
+    color: #fff;
+    border-radius: 2%;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap:inherit;
+  }
+  
+  .footer-section {
+    flex: 1 1 300px;
+    margin: 20px;
+  }
+  
+  .footer-section h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color:yellow;
+  }
+  
+  .footer-section p, .footer-section ul {
+    font-size: 14px;
+    line-height: 1.6;
+    color:white;
+  }
+  
+  .footer-section ul li {
+    list-style: none;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li i {
+    margin-right: 10px;
+  }
+  
+  .social-icons a {
+
+    margin-right: 30px;
+  }
+  
+  .payment-icons i {
+    font-size: 24px;
+    margin-right: 30px;
+  }
+  .vishwa_propic
+  {
+    height: 200px;
+    width: 200px;
+  }
+  .checked
+  {
+    color:orange;
+  }
+  .vishwa_all
+  {
+    max-width: 1200px;
+    margin-left: 10px;
+    display: flex;
+    flex-wrap:inherit;
+    background-color: rgb(166, 170, 170);
+    height: 300px;
+    width: 100%;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-left: 30px;
+    border-radius: 10px;
+    
+  }
+  .vishwa_comment
+  {
+    position: relative;left: 50px;top: 80px;
+  }
+  .vishwa
+  {
+    margin-left: 10px;
+    text-align: center;
+  }
+  .topic
+  {
+    font-size: 40;
+  }
+  .dineth_propic
+  {
+    height: 200px;
+    width: 200px;
+  }
+  .dineth_all
+  {
+    max-width: 1200px;
+    margin-left: 230px;
+    display: flex;
+    flex-wrap:inherit;
+    background-color: rgb(166, 170, 170);
+    height: 300px;
+    width: 100%;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-left: 30px;
+    border-radius: 10px;
+    
+  }
+  .dineth_comment
+  {
+    position: relative;left: 50px;top: 80px;
+  }
+  .dineth
+  {
+    margin-left: 10px;
+    text-align: center;
+  }
+  .danushka_all
+  {
+    max-width: 1200px;
+    margin-left: 10px;
+    display: flex;
+    flex-wrap:inherit;
+    background-color: rgb(166, 170, 170);
+    height: 300px;
+    width: 100%;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-left: 30px;
+    border-radius: 10px;
+    
+  }
+.danushka_propic
+{
+  height: 200px;
+  width: 200px;
+}
+.danushka 
+{
+  text-align: center;
+  margin-left: 10px;
+}
+.danushka_comment
+  {
+    position: relative;left: 50px;top: 80px;
+  }
+textarea
+{
+  border-radius: 10px;
+  background-color: rgb(175, 207, 235);
+}
+input
+{
+  background-color: bisque;
+}
+.rating {
+  display: inline-block;
+  position: relative;
+  height: 50px;
+  line-height: 50px;
+  font-size: 50px;
+  margin-bottom: 0;
+
+
+}
+
+.rating label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  cursor: pointer;
+}
+
+.rating label:last-child {
+  position: static;
+}
+
+.rating label:nth-child(1) {
+  z-index: 5;
+}
+
+.rating label:nth-child(2) {
+  z-index: 4;
+}
+
+.rating label:nth-child(3) {
+  z-index: 3;
+}
+
+.rating label:nth-child(4) {
+  z-index: 2;
+}
+
+.rating label:nth-child(5) {
+  z-index: 1;
+}
+
+.rating label input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.rating label .icon {
+  float: left;
+  color: transparent;
+}
+
+.rating label:last-child .icon {
+  color: #ece8e8;
+}
+
+.rating:not(:hover) label input:checked ~ .icon,
+.rating:hover label:hover input ~ .icon {
+  color: rgb(197, 220, 27);
+}
+
+.rating label input:focus:not(:checked) ~ .icon:last-child {
+  color: #000000;
+  text-shadow: 0 0 5px rgb(255, 225, 0);
+}
+.rate
+{
+  margin-top: 10px;
+}
+
+  
+  

@@ -1,0 +1,31 @@
+.login-button {
+    background-color:black;
+    color: white;
+    padding: 10px 15px;
+    font-size: 10px;
+    position:sticky;
+    bottom: 10px;
+    
+  }
+  
+  .signup-button {
+    background-color:black;
+    color: white;
+    padding: 10px 15px;
+    font-size: 10px;
+    position:sticky;
+    bottom: 10px;
+    
+  }
+  
+li.l1 a{
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+
+li.l1 a:hover{background-color: rgb(255, 255, 255)}
+
